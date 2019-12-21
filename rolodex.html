@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rolodex</title>
+  <style media="screen">
+    a {
+      color: #287e30;
+      font-family: montserrat;
+      font-weight: 500;
+      font-size: 2.75rem;
+      margin: 0;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: all 0.5s ease;
+    }
+
+    a:hover {
+      color: white;
+      font-size: calc(2.75rem + 50%);
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .rolodex {
+      background-color: #F1F1F1;
+      background-image: repeating-linear-gradient(135deg, transparent, transparent 2px, rgba(255, 255, 255, .5) 2px, rgba(255, 255, 255, .5) 9px);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+    }
+
+    .roll {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+
+    .roll-1:hover {
+      background: url(Burrard_Bridge_City_Lights.jpg);
+      background-size: cover;
+    }
+
+    .roll-2:hover {
+      background: url(Annacis_View.jpg);
+      background-size: cover;
+    }
+
+    .roll-3:hover {
+      background: url(Chemtarde_Caustic_Modernization_Project.jpg);
+      background-size: cover;
+    }
+
+    .roll-4:hover {
+      background: url(Jimmie_Creek_River.jpg);
+      background-size: cover;
+    }
+
+    .roll-5:hover {
+      background: url(Upper_Lillooet_Project.jpg);
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="rolodex">
+    <div class="roll roll-1">
+      <p><a href="#">Burrard Bridge Lights</a></p>
+    </div>
+    <div class="roll roll-2">
+      <p><a href="#">Annacis Valley</a></p>
+    </div>
+    <div class="roll roll-3">
+      <p><a href="#">Chemtrade Modernization</a></p>
+    </div>
+    <div class="roll roll-4">
+      <p><a href="#">Jimmy Creek River</a></p>
+    </div>
+    <div class="roll roll-5">
+      <p><a href="#">Upper Liilooet</a></p>
+    </div>
+  </div>
+</body>
+
+</html>
